@@ -1,0 +1,87 @@
+body {
+    padding-top: 70px;
+    background-color:  #0D0714;
+    // text-align: center;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 17px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+}
+.todo_app-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 60px;
+    input {
+        border: 1px solid #3E1671;
+        border-radius: 10px;
+        max-width: 462px;
+        width: 100%;
+        background-color: #0D0714;
+        color:  #777777;
+        padding: 10px 0 10px 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+    }
+    .main__input-add {
+        max-height: 40px;
+        padding: 9px;
+        border: 0;
+        border-radius: 10px;
+        background-color:  #9E78CF;
+    }
+}
+
+.main__todo_app-task {
+    margin-bottom: 60px;
+    .main__task-tittle {
+        margin-bottom: 17px;
+
+    }
+    .main__task {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        background: #15101C;
+        padding: 25px;
+        border-radius: 10px;
+        p {
+            color: #9E78CF;
+        }
+        .main__task__img {
+            display: flex;
+            gap: 7px;
+        img {
+            max-width: 22px;
+        }
+        }
+    }
+}
+
+
+.main__todo_app-done {
+    .main-done-tittle {
+        margin-bottom: 16px;
+    }
+    .main__done-task {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            background: #15101C;
+            padding: 25px;
+            border-radius: 10px;
+            align-items: center;
+            p {
+                color: #78CFB0;
+                text-decoration: line-through;
+            }
+            img {
+                max-width: 38px;
+            }
+    }
+}
